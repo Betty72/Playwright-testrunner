@@ -17,7 +17,7 @@
         "testDir": "/Users/bettea/PlaywrightFramework/Test-runner",
         "testIgnore": [],
         "testMatch": [
-          "tc001.test.ts"
+          "democlient.test.ts"
         ],
         "timeout": 30000
       }
@@ -48,75 +48,38 @@
   },
   "suites": [
     {
-      "title": "test/tc001.test.ts",
-      "file": "test/tc001.test.ts",
+      "title": "test/democlient.test.ts",
+      "file": "test/democlient.test.ts",
       "line": 0,
       "column": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "TC001",
-          "file": "test/tc001.test.ts",
-          "line": 7,
-          "column": 6,
-          "specs": [
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Login positive",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 9152,
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 4311,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
                 }
               ],
-              "file": "test/tc001.test.ts",
-              "line": 33,
-              "column": 5
-            },
-            {
-              "title": "Login again",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 2251,
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "file": "test/tc001.test.ts",
-              "line": 44,
-              "column": 5
+              "status": "expected"
             }
-          ]
+          ],
+          "file": "test/democlient.test.ts",
+          "line": 3,
+          "column": 1
         }
       ]
     }
