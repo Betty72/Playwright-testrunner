@@ -17,7 +17,7 @@
         "testDir": "/Users/bettea/PlaywrightFramework/Test-runner",
         "testIgnore": [],
         "testMatch": [
-          "console.test.ts"
+          "kambiplay.test.ts"
         ],
         "timeout": 30000
       }
@@ -48,14 +48,14 @@
   },
   "suites": [
     {
-      "title": "test/console.test.ts",
-      "file": "test/console.test.ts",
+      "title": "test/kambiplay.test.ts",
+      "file": "test/kambiplay.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "Logger",
-          "ok": true,
+          "title": "test",
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -66,23 +66,38 @@
               "results": [
                 {
                   "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 4521,
-                  "stdout": [
-                    {
-                      "text": "0: Importing from '@storybook/addon-docs/blocks' is deprecated, import directly from '@storybook/addon-docs' instead:\n\nhttps://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated-scoped-blocks-imports\n"
-                    }
-                  ],
+                  "status": "timedOut",
+                  "duration": 30134,
+                  "error": {
+                    "message": "Pending operations:\n  - page.click at test/kambiplay.test.ts:12:16\n\npage.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"#KambiBC-content >> text=Ice Hockey\"\n============================================================",
+                    "stack": "Pending operations:\n  - page.click at test/kambiplay.test.ts:12:16\n\npage.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"#KambiBC-content >> text=Ice Hockey\"\n============================================================\n    at /Users/bettea/PlaywrightFramework/Test-runner/test/kambiplay.test.ts:12:16"
+                  },
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/bettea/PlaywrightFramework/Test-runner/test-results/test-kambiplay-test/3681ca5f17daa7ed6b9d48bb2814d1cf.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/bettea/PlaywrightFramework/Test-runner/test-results/test-kambiplay-test/test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "column": 16,
+                    "line": 12
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
-          "file": "test/console.test.ts",
-          "line": 4,
+          "file": "test/kambiplay.test.ts",
+          "line": 3,
           "column": 1
         }
       ]
