@@ -17,7 +17,7 @@ const config: PlaywrightTestConfig = {
           
         
     },
-    testMatch: ["tc001.test.ts"], //**.test.ts to run all the tests in the project
+    testMatch: ["console.test.ts"], //**.test.ts to run all the tests in the project
     retries: 0,
     reporter: [["dot"], ["json", {outputFile: "test-result.json"}]]
 }
