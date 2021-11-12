@@ -17,7 +17,7 @@
         "testDir": "/Users/bettea/PlaywrightFramework/Test-runner",
         "testIgnore": [],
         "testMatch": [
-          "**.test.ts"
+          "democlient.test.ts"
         ],
         "timeout": 30000
       }
@@ -48,46 +48,6 @@
   },
   "suites": [
     {
-      "title": "test/console.test.ts",
-      "file": "test/console.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "Logger",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 4260,
-                  "stdout": [
-                    {
-                      "text": "0: Importing from '@storybook/addon-docs/blocks' is deprecated, import directly from '@storybook/addon-docs' instead:\n\nhttps://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated-scoped-blocks-imports\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "test/console.test.ts",
-          "line": 4,
-          "column": 1
-        }
-      ]
-    },
-    {
       "title": "test/democlient.test.ts",
       "file": "test/democlient.test.ts",
       "line": 0,
@@ -105,9 +65,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8630,
+                  "duration": 7388,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -120,188 +80,6 @@
           "file": "test/democlient.test.ts",
           "line": 3,
           "column": 1
-        }
-      ]
-    },
-    {
-      "title": "test/first.test.ts",
-      "file": "test/first.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Suite demo",
-          "file": "test/first.test.ts",
-          "line": 3,
-          "column": 6,
-          "specs": [
-            {
-              "title": "open letcode and verify title",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "status": "passed",
-                      "duration": 5,
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "file": "test/first.test.ts",
-              "line": 10,
-              "column": 5
-            },
-            {
-              "title": "open letcode and login",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "status": "passed",
-                      "duration": 1379,
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "file": "test/first.test.ts",
-              "line": 15,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "test/kambiplay.test.ts",
-      "file": "test/kambiplay.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "status": "passed",
-                  "duration": 7600,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "test/kambiplay.test.ts",
-          "line": 3,
-          "column": 1
-        }
-      ]
-    },
-    {
-      "title": "test/tc001.test.ts",
-      "file": "test/tc001.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "TC001",
-          "file": "test/tc001.test.ts",
-          "line": 7,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Login positive",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 8532,
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "file": "test/tc001.test.ts",
-              "line": 33,
-              "column": 5
-            },
-            {
-              "title": "Login again",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 1848,
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "file": "test/tc001.test.ts",
-              "line": 44,
-              "column": 5
-            }
-          ]
         }
       ]
     }
