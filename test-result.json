@@ -17,7 +17,7 @@
         "testDir": "/Users/bettea/PlaywrightFramework/Test-runner",
         "testIgnore": [],
         "testMatch": [
-          "kambiplay.test.ts"
+          "tc001.test.ts"
         ],
         "timeout": 30000
       }
@@ -48,57 +48,75 @@
   },
   "suites": [
     {
-      "title": "test/kambiplay.test.ts",
-      "file": "test/kambiplay.test.ts",
+      "title": "test/tc001.test.ts",
+      "file": "test/tc001.test.ts",
       "line": 0,
       "column": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "test",
-          "ok": false,
-          "tags": [],
-          "tests": [
+          "title": "TC001",
+          "file": "test/tc001.test.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
+              "title": "Login positive",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30134,
-                  "error": {
-                    "message": "Pending operations:\n  - page.click at test/kambiplay.test.ts:12:16\n\npage.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"#KambiBC-content >> text=Ice Hockey\"\n============================================================",
-                    "stack": "Pending operations:\n  - page.click at test/kambiplay.test.ts:12:16\n\npage.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"#KambiBC-content >> text=Ice Hockey\"\n============================================================\n    at /Users/bettea/PlaywrightFramework/Test-runner/test/kambiplay.test.ts:12:16"
-                  },
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": [
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
                     {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/bettea/PlaywrightFramework/Test-runner/test-results/test-kambiplay-test/3681ca5f17daa7ed6b9d48bb2814d1cf.webm"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "/Users/bettea/PlaywrightFramework/Test-runner/test-results/test-kambiplay-test/test-failed-1.png"
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 9152,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
                     }
                   ],
-                  "errorLocation": {
-                    "column": 16,
-                    "line": 12
-                  }
+                  "status": "expected"
                 }
               ],
-              "status": "unexpected"
+              "file": "test/tc001.test.ts",
+              "line": 33,
+              "column": 5
+            },
+            {
+              "title": "Login again",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 2251,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "test/tc001.test.ts",
+              "line": 44,
+              "column": 5
             }
-          ],
-          "file": "test/kambiplay.test.ts",
-          "line": 3,
-          "column": 1
+          ]
         }
       ]
     }

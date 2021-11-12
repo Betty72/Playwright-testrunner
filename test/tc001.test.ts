@@ -21,11 +21,11 @@ test.describe("TC001", () => {
         login = new LoginPage(page);
         common = new CommonFunctions(page);
     })
-    test.afterAll(async () => {
+    /*test.afterAll(async () => {
         await context.tracing.stop({
             path: "trace.zip"
         });
-    })
+    })*/
     test.beforeEach(async () => {
         await page.goto("https://letcode.in")
     })
