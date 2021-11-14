@@ -17,7 +17,7 @@ const config: PlaywrightTestConfig = {
           
         
     },
-    testMatch: ["unibet.test.ts"], //**.test.ts to run all the tests in the project
+    testMatch: ["kambiplay.test.ts"], //**.test.ts to run all the tests in the project
     retries: 0,
     reporter: [["dot"], ["json", {outputFile: "test-result.json"}]]
 }

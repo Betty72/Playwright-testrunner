@@ -17,7 +17,7 @@
         "testDir": "/Users/bettea/PlaywrightFramework/Test-runner",
         "testIgnore": [],
         "testMatch": [
-          "unibet.test.ts"
+          "kambiplay.test.ts"
         ],
         "timeout": 30000
       }
@@ -48,8 +48,8 @@
   },
   "suites": [
     {
-      "title": "test/unibet.test.ts",
-      "file": "test/unibet.test.ts",
+      "title": "test/kambiplay.test.ts",
+      "file": "test/kambiplay.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
@@ -67,7 +67,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 13158,
+                  "duration": 5433,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -77,7 +77,7 @@
               "status": "expected"
             }
           ],
-          "file": "test/unibet.test.ts",
+          "file": "test/kambiplay.test.ts",
           "line": 3,
           "column": 1
         }
