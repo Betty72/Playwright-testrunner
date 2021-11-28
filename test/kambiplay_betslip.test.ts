@@ -4,14 +4,17 @@ test('test_betslip', async ({ page }) => {
     await page.goto('https://play.kambi.com/');
     // Go to https://play.kambi.com/#home
     await page.goto('https://play.kambi.com/#home');
-    // Click p:has-text("Basketball")
-    await page.click('p:has-text("Basketball")');
-    await expect(page).toHaveURL('https://play.kambi.com/#sports-hub/basketball');
-    // Click #KambiBC-content >> text=ESP
-    await page.click('#KambiBC-content >> text=ESP');
-    await expect(page).toHaveURL('https://play.kambi.com/#sports-hub/basketball/spain');
-    // Click button:has-text("1.60")
-    await page.click('button:has-text("1.60")');
-    // Click button:has-text("1.60")
-    await page.click('button:has-text("1.60")');
+    // Click text=All Sports
+    await page.click('text=All Sports');
+    // Click text=Motorsports
+    await page.click('text=Motorsports');
+    await expect(page).toHaveURL('https://play.kambi.com/#sports-hub/motorsports');
+    // Click text=Speedway
+    await page.click('text=Speedway');
+    // Click .withHorizontalScroll__ArrowRight-sc-1w4qaj3-2
+    await page.click('.withHorizontalScroll__ArrowRight-sc-1w4qaj3-2');
+    // Click button:has-text("Doyle, Jason15.00")
+    await page.click('button:has-text("Doyle, Jason15.00")');
+    // Click button:has-text("Doyle, Jason15.00")
+    await page.click('button:has-text("Doyle, Jason15.00")');
   });
