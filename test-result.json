@@ -17,7 +17,7 @@
         "testDir": "/Users/bettea/PlaywrightFramework/Test-runner",
         "testIgnore": [],
         "testMatch": [
-          "kambiplay.test.ts"
+          "kambiplay_left_menu.test.ts"
         ],
         "timeout": 30000
       }
@@ -48,13 +48,13 @@
   },
   "suites": [
     {
-      "title": "test/kambiplay.test.ts",
-      "file": "test/kambiplay.test.ts",
+      "title": "test/kambiplay_left_menu.test.ts",
+      "file": "test/kambiplay_left_menu.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "test",
+          "title": "test_left_menu",
           "ok": true,
           "tags": [],
           "tests": [
@@ -67,7 +67,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 5433,
+                  "duration": 13413,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -77,8 +77,8 @@
               "status": "expected"
             }
           ],
-          "file": "test/kambiplay.test.ts",
-          "line": 3,
+          "file": "test/kambiplay_left_menu.test.ts",
+          "line": 2,
           "column": 1
         }
       ]

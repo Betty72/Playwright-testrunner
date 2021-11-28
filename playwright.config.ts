@@ -11,13 +11,13 @@ const config: PlaywrightTestConfig = {
         screenshot: "only-on-failure",
         video: "retain-on-failure",
         launchOptions: {
-            slowMo: 100,
+            slowMo: 500,
           },
 
           
         
     },
-    testMatch: ["**.test.ts"], //**.test.ts to run all the tests in the project
+    testMatch: ["kambiplay_left_menu.test.ts"], //**.test.ts to run all the tests in the project
     retries: 0,
     reporter: [["dot"], ["json", {outputFile: "test-result.json"}]]
 }
