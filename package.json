@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "testspark": "playwright test test/spark",
+    "testkambiplay": "playwright test test/kambiplay"
   },
   "repository": {
     "type": "git",

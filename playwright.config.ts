@@ -6,18 +6,18 @@ const config: PlaywrightTestConfig = {
 
     use: {
 
-        headless: false,
+        headless: true,
         channel: "chrome",
         screenshot: "only-on-failure",
         video: "retain-on-failure",
         launchOptions: {
-            slowMo: 500,
+            slowMo: 50,
           },
 
           
         
     },
-    testMatch: ["kambiplay_betslip.test.ts"], //**.test.ts to run all the tests in the project
+    testMatch: ["**.test.ts"], //**.test.ts to run all the tests in the project
     retries: 0,
     reporter: [["dot"], ["json", {outputFile: "test-result.json"}]]
 }
