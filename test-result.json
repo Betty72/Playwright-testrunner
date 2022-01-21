@@ -48,8 +48,8 @@
   },
   "suites": [
     {
-      "title": "test/kambiplay/testcase1.test.ts",
-      "file": "test/kambiplay/testcase1.test.ts",
+      "title": "test/kambiplay/mytest.test.ts",
+      "file": "test/kambiplay/mytest.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
@@ -67,7 +67,43 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 13885,
+                  "duration": 27368,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "test/kambiplay/mytest.test.ts",
+          "line": 2,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "test/kambiplay/testcase1.test.ts",
+      "file": "test/kambiplay/testcase1.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 15870,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -79,6 +115,114 @@
           ],
           "file": "test/kambiplay/testcase1.test.ts",
           "line": 6,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "test/kambiplay/testcase2.test.ts",
+      "file": "test/kambiplay/testcase2.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 15826,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "test/kambiplay/testcase2.test.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "test/kambiplay/testcase3.test.ts",
+      "file": "test/kambiplay/testcase3.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 15677,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "test/kambiplay/testcase3.test.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "test/kambiplay/testcase4.test.ts",
+      "file": "test/kambiplay/testcase4.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 22396,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "test/kambiplay/testcase4.test.ts",
+          "line": 2,
           "column": 1
         }
       ]
