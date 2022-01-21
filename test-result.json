@@ -19,7 +19,7 @@
         "testMatch": [
           "**.test.ts"
         ],
-        "timeout": 30000
+        "timeout": 60000
       }
     ],
     "reporter": [
@@ -48,18 +48,18 @@
   },
   "suites": [
     {
-      "title": "test/spark/console.test.ts",
-      "file": "test/spark/console.test.ts",
+      "title": "test/kambiplay/testcase1.test.ts",
+      "file": "test/kambiplay/testcase1.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "Logger",
+          "title": "test",
           "ok": true,
           "tags": [],
           "tests": [
             {
-              "timeout": 30000,
+              "timeout": 60000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectName": "",
@@ -67,50 +67,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 3689,
-                  "stdout": [
-                    {
-                      "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED\n"
-                    },
-                    {
-                      "text": "0: Importing from '@storybook/addon-docs/blocks' is deprecated, import directly from '@storybook/addon-docs' instead:\n\nhttps://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated-scoped-blocks-imports\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "test/spark/console.test.ts",
-          "line": 4,
-          "column": 1
-        }
-      ]
-    },
-    {
-      "title": "test/spark/spark_datadisplay.test.ts",
-      "file": "test/spark/spark_datadisplay.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 9397,
+                  "duration": 13885,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -120,224 +77,8 @@
               "status": "expected"
             }
           ],
-          "file": "test/spark/spark_datadisplay.test.ts",
-          "line": 2,
-          "column": 1
-        }
-      ]
-    },
-    {
-      "title": "test/spark/spark_date.test.ts",
-      "file": "test/spark/spark_date.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 21457,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "test/spark/spark_date.test.ts",
-          "line": 3,
-          "column": 1
-        }
-      ]
-    },
-    {
-      "title": "test/spark/spark_datetime_input.test.ts",
-      "file": "test/spark/spark_datetime_input.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "status": "passed",
-                  "duration": 13776,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "test/spark/spark_datetime_input.test.ts",
-          "line": 2,
-          "column": 1
-        }
-      ]
-    },
-    {
-      "title": "test/spark/spark_datetime_range.test.ts",
-      "file": "test/spark/spark_datetime_range.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 17667,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "test/spark/spark_datetime_range.test.ts",
-          "line": 2,
-          "column": 1
-        }
-      ]
-    },
-    {
-      "title": "test/spark/spark_datetime.test.ts",
-      "file": "test/spark/spark_datetime.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 12145,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "test/spark/spark_datetime.test.ts",
-          "line": 2,
-          "column": 1
-        }
-      ]
-    },
-    {
-      "title": "test/spark/spark_feedback.test.ts",
-      "file": "test/spark/spark_feedback.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "status": "passed",
-                  "duration": 10572,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "test/spark/spark_feedback.test.ts",
-          "line": 2,
-          "column": 1
-        }
-      ]
-    },
-    {
-      "title": "test/spark/spark_inputs_first.test.ts",
-      "file": "test/spark/spark_inputs_first.test.ts",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 4595,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "test/spark/spark_inputs_first.test.ts",
-          "line": 2,
+          "file": "test/kambiplay/testcase1.test.ts",
+          "line": 6,
           "column": 1
         }
       ]

@@ -1,21 +1,19 @@
 import { PlaywrightTestConfig } from "@playwright/test";
 
 const config: PlaywrightTestConfig = {
-
-    
+    timeout: 60000,
+   
 
     use: {
 
-        headless: true,
+        headless: false,
         channel: "chrome",
         screenshot: "only-on-failure",
         video: "retain-on-failure",
+        trace: 'retain-on-failure',
         launchOptions: {
-            slowMo: 50,
-          },
-
-          
-        
+            slowMo: 2000,
+          },  
     },
     testMatch: ["**.test.ts"], //**.test.ts to run all the tests in the project
     retries: 0,
