@@ -25,15 +25,15 @@ test('test', async ({ page }) => {
     //select first element in level 0
     await page.waitForSelector('.KambiBC-sandwich-filter-foreground--level-0 ul.KambiBC-filter-menu > li:nth-child(1) > .KambiBC-filter-menu__option')
     await page.click('.KambiBC-sandwich-filter-foreground--level-0 ul.KambiBC-filter-menu > li:nth-child(1) > .KambiBC-filter-menu__option')
-    await page.pause();
+    //await page.pause();
     //select second element in level 1
     await page.waitForSelector('.KambiBC-filter-menu > li:nth-child(2) > .KambiBC-filter-menu__option--selected')
     await page.click('.KambiBC-filter-menu > li:nth-child(2) > .KambiBC-filter-menu__option--selected')
-    await page.pause();
+    //await page.pause();
     //select first event from the event list
     await page.waitForSelector('.KambiBC-sandwich-filter__list > .KambiBC-sandwich-filter__event-list-item:nth-child(1) > .KambiBC-sandwich-filter__event-list-info')
     await page.click('.KambiBC-sandwich-filter__list > .KambiBC-sandwich-filter__event-list-item:nth-child(1) > .KambiBC-sandwich-filter__event-list-info')
-    await page.pause();
+    //await page.pause();
     // select element 2 from the filter menu
     await page.waitForSelector('.KambiBC-filter-menu > li:nth-child(2)')
     await page.click('.KambiBC-filter-menu > li:nth-child(2)')
