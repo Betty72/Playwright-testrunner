@@ -21,7 +21,7 @@ test('test', async ({ page }) => {
     await page.click('.KambiBC-sandwich-filter-foreground--level-2 ul.KambiBC-filter-menu > li:nth-child(3)')
     
 
-    // select the firt event
+    // select the first event
     await page.waitForSelector('.KambiBC-sandwich-filter__event-list-item:nth-child(1) > .KambiBC-sandwich-filter__event-list-info')
     await page.click('.KambiBC-sandwich-filter__event-list-item:nth-child(1) > .KambiBC-sandwich-filter__event-list-info')
     
