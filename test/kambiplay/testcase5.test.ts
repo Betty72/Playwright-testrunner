@@ -24,8 +24,8 @@ test('test', async ({ page }) => {
    await page.click('.KambiBC-event-groups-list > div.KambiBC-collapsible-container:nth-child(2)');
    //await page.pause();
   
-   await page.waitForSelector('.KambiBC-event-item__link > .KambiBC-react-collapsable-container__show-more')
-   await page.click('.KambiBC-event-item__link > .KambiBC-react-collapsable-container__show-more')
+   
+
    await page.dblclick('text=Home');
    await expect(page).toHaveURL('https://play.kambi.com/#home');
    
