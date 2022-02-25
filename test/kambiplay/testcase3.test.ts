@@ -1,5 +1,5 @@
 // Test case 3
-//Go to Kambiplay - On sandwitch filter - Click on first level - Click on second level - Click on third level - click on first event - click on home to go to landing page
+//Go to Kambiplay - On sandwitch filter - Click on first level - Click on second level - Click on third level - click on first event - go back to landing page
 
 import { expect, Page, test } from "@playwright/test";
 test('test', async ({ page }) => {
