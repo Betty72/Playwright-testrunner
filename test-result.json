@@ -48,8 +48,8 @@
   },
   "suites": [
     {
-      "title": "test/kambiplay/testcase7.test.ts",
-      "file": "test/kambiplay/testcase7.test.ts",
+      "title": "test/kambiplay/testcase2.test.ts",
+      "file": "test/kambiplay/testcase2.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
@@ -67,7 +67,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 18708,
+                  "duration": 14996,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -77,8 +77,8 @@
               "status": "expected"
             }
           ],
-          "file": "test/kambiplay/testcase7.test.ts",
-          "line": 2,
+          "file": "test/kambiplay/testcase2.test.ts",
+          "line": 5,
           "column": 1
         }
       ]
