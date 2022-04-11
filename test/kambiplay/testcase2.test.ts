@@ -1,16 +1,18 @@
-// Test case 2 
-//Go to Kambiplay - click on all sports - Click on fewer sports - select one of the top sports - click on an event- click on home to go to landing page
+    // Test case 2 
+    //Go to Kambiplay - click on all sports - Click on fewer sports - select one of the top sports - click on an event- click on home to go to landing page
+    import { expect, Page, test } from "@playwright/test";
+    test('test', async ({ page }) => {
 
-import { expect, Page, test } from "@playwright/test";
-test('test', async ({ page }) => {
-    // Go to https://play.kambi.com/
-    await page.goto('https://play.kambi.com/');
-    
-    // Click text=All Sports
-    await page.click('text=All Sports');
-    // Click text=Fewer Sports
-    await page.click('text=Fewer Sports');
+    // Go to https://play.kambi.com/#home
+    await page.goto('https://play.kambi.com/#home');
 
+
+    await page.waitForSelector('.KambiBC-navigation-menu__link--allsports > .KambiBC-navigation-menu__label-wrapper > .KambiBC-navigation-menu__label > .KambiBC-navigation-menu__label--title')
+    await page.click(' .KambiBC-navigation-menu__link--allsports > .KambiBC-navigation-menu__label-wrapper > .KambiBC-navigation-menu__label > .KambiBC-navigation-menu__label--title')
+  
+    await page.waitForSelector('.KambiBC-navigation-menu__link--allsports > .KambiBC-navigation-menu__label-wrapper > .KambiBC-navigation-menu__label > .KambiBC-navigation-menu__label--title')
+    await page.click('.KambiBC-navigation-menu__link--allsports > .KambiBC-navigation-menu__label-wrapper > .KambiBC-navigation-menu__label > .KambiBC-navigation-menu__label--title')
+  
     // select baseboll
     await page.waitForSelector('.KambiBC-navigation-menu__link--baseball > .KambiBC-navigation-menu__link')
     await page.click('.KambiBC-navigation-menu__link--baseball > .KambiBC-navigation-menu__link')
@@ -24,4 +26,5 @@ test('test', async ({ page }) => {
     // go back to landing page 
     await page.dblclick('text=Home');
     await expect(page).toHaveURL('https://play.kambi.com/#home');
-  });
+
+});

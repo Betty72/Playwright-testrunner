@@ -9,19 +9,19 @@ test('test', async ({ page }) => {
     //select second element from the sport filter 
     await page.waitForSelector('.KambiBC-sports-menu__list > li:nth-child(2) > .KambiBC-filter-events-by-sports-container > .KambiBC-filter-events-by-sports-icon-container')
     await page.click('.KambiBC-sports-menu__list > li:nth-child(2) > .KambiBC-filter-events-by-sports-container > .KambiBC-filter-events-by-sports-icon-container')
-    //await page.pause();
-    //select 3rd event from the event list
-    await page.waitForSelector('.KambiBC-sandwich-filter__event-list-item:nth-child(3) > .KambiBC-sandwich-filter__event-list-info')
-    await page.click('.KambiBC-sandwich-filter__event-list-item:nth-child(3) > .KambiBC-sandwich-filter__event-list-info')
-    //await page.pause();
-    //open betslip on 6 event
-    await page.waitForSelector('.KambiBC-outcomes-list > .KambiBC-outcomes-list__column > button:nth-child(6)')
-    await page.click('.KambiBC-outcomes-list > .KambiBC-outcomes-list__column > button:nth-child(6)')
+    await page.pause();
+    //select 1st event from the event list
+    await page.waitForSelector('.KambiBC-sandwich-filter__event-list-item:nth-child(1) > .KambiBC-sandwich-filter__event-list-info')
+    await page.click('.KambiBC-sandwich-filter__event-list-item:nth-child(1) > .KambiBC-sandwich-filter__event-list-info')
+    await page.pause();
+    //open betslip on 1st event
+    await page.waitForSelector('.KambiBC-outcomes-list > .KambiBC-outcomes-list__column > button:nth-child(1)')
+    await page.click('.KambiBC-outcomes-list > .KambiBC-outcomes-list__column > button:nth-child(1)')
 
 
     //close betslip 
-    await page.waitForSelector('.KambiBC-outcomes-list .KambiBC-outcomes-list__column > button:nth-child(6)')
-    await page.click('.KambiBC-outcomes-list .KambiBC-outcomes-list__column > button:nth-child(6)')
+    await page.waitForSelector('.KambiBC-outcomes-list .KambiBC-outcomes-list__column > button:nth-child(1)')
+    await page.click('.KambiBC-outcomes-list .KambiBC-outcomes-list__column > button:nth-child(1)')
 
     
     // go back to landing page
